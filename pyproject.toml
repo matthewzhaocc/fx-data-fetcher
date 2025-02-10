@@ -1,0 +1,22 @@
+[project]
+name = "fx-data-fetcher"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Matthew Zhao"}
+]
+license = {text = "SEE LICENSE IN LICENSE"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "websockets (>=14.2,<15.0)",
+    "asyncpg (>=0.30.0,<0.31.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
